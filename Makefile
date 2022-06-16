@@ -10,7 +10,7 @@ $(exec): $(objects)
 	gcc -c $(flags) $< -o $@
 
 git:
-	-rm *.out
+	-rm $(exec)
 	-rm *.o
 	-rm *.s
 	-rm clay/src/*.o
