@@ -1,5 +1,5 @@
-#ifndef TAC_TOKEN_H
-#define TAC_TOKEN_H
+#ifndef CLAY_TOKEN_H
+#define CLAY_TOKEN_H
 typedef struct TOKEN_STRUCT
 {
     char* value;
