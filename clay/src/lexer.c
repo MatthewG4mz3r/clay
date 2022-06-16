@@ -59,4 +59,6 @@ token_T* lexer_next_token(lexer_T* lexer)
             return lexer_advance_with(lexer, lexer_parse_id(lexer));
         
     }
+
+    return init_token(0, TOKEN_EOF);
 }
