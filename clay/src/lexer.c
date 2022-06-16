@@ -9,3 +9,13 @@ lexer_T* init_lexer(char* src)
 
     return lexer;
 }
+
+void lexer_advance(lexer_T* lexer)
+{
+
+}
+
+token_T* lexer_next_token(lexer_T* lexer);
+{
+
+}
