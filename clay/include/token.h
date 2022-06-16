@@ -18,6 +18,7 @@ typedef struct TOKEN_STRUCT
         TOKEN_RIGHT_ARROW,
         TOKEN_INT,
         TOKEN_CASH,
+        TOKEN_EOF,
     } type;
 } token_T;
 
